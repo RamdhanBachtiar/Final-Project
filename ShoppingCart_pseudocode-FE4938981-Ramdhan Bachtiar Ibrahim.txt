@@ -1,0 +1,44 @@
+Start
+READ AND WRITE "item1" with string
+READ AND WRITE "item2" with string
+READ AND WRITE "item_price1" with Number 
+READ AND WRITE "item_price2" with Number
+READ AND WRITE "final_price" with number 
+READ AND WRITE "Checkout_succeed" with string
+STORE "item1" with ""
+STORE "item2" with ""
+STORE "finalprice" with ""
+PRINT "item1"
+PRINT "item2"
+PRINT "final_price"
+PRINT "Checkout_succeed
+
+Open Online Shop
+STORE "Login" with string 
+STORE "Sign up" with string 
+If Have Account 
+     Login 
+Else if 
+     Sign up
+
+PRESS Button "SEARCH"
+TYPE item name 
+ADD item to shopping cart 
+Find another item 
+if yes 
+   back to search bar 
+if no 
+   sum item
+PROCEDUR Sum item 
+    store "final_price" with itemprice1 plus itemprice2
+       print result 
+End Procedure 
+
+CLICK button checkout 
+   if checkout succeed 
+      Display "Checkout_succeed"
+WHILE Checkout failed 
+   checkout
+
+END
+
